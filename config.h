@@ -48,7 +48,7 @@ static const Layout layouts[] = {
 	{ "M",      monocle },
 	{ "G",      gaplessgrid },
 	{ "S",      spiral },
-	{ "D",      dwindle },
+	{ "D",      deck },
 };
 
 /* key definitions */

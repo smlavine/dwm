@@ -93,6 +93,8 @@ static Key keys[] = {
 	{ MODKEY,                       XK_comma,  setcfact,       {.f = +0.25} },
 	{ MODKEY,                       XK_period, setcfact,       {.f = -0.25} },
 	{ MODKEY,                       XK_slash,  setcfact,       {.f =  0.00} },
+	{ MODKEY,                       XK_backslash, setmfact,    {.f =  1.50} },
+	{ MODKEY,                       XK_backslash, setlayout,   {.v = &layouts[0]} },
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
 	TAGKEYS(                        XK_3,                      2)

@@ -125,6 +125,8 @@ static Key keys[] = {
     { MODKEY,                       XK_y,      spawn,          SHCMD("lastscreenshot") },
     { MODKEY|ShiftMask,             XK_BackSpace, spawn,       SHCMD("quitdwm") },
     { MODKEY,                       XK_End,    spawn,          SHCMD("sudo light -U 5") },
+    { MODKEY,                       XK_Escape, spawn,          SHCMD("dunstctl close") },
+    { MODKEY,                       XK_Caps_Lock, spawn,       SHCMD("dunstctl close") },
     { MODKEY,                       XK_Home,   spawn,          SHCMD("sudo light -A 5") },
 };
 

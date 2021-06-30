@@ -9,11 +9,9 @@ dwm - dynamic window manager
 ============================
 dwm is an extremely fast, small, and dynamic window manager for X.
 
-
 Requirements
 ------------
 In order to build dwm you need the Xlib header files.
-
 
 Installation
 ------------
@@ -24,7 +22,6 @@ Afterwards enter the following command to build and install dwm (if
 necessary as root):
 
     make clean install
-
 
 Running dwm
 -----------
@@ -47,7 +44,6 @@ like this in your .xinitrc:
     	sleep 1
     done &
     exec dwm
-
 
 Configuration
 -------------

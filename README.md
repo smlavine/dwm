@@ -1,7 +1,7 @@
 smlss
 =====
 This is my build of dwm. It is deployed by
-[smlss](https://git.smlavine.com/smlss).
+[smlss](https://sr.ht/~smlavine/smlss).
 
 To contact me, Sebastian LaVine, send an email to <mail@smlavine.com>.
 

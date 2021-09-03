@@ -127,6 +127,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_Escape,    spawn,       SHCMD("dunstctl close") },
 	{ MODKEY,                       XK_Caps_Lock, spawn,       SHCMD("dunstctl close") },
 	{ MODKEY,                       XK_Home,      spawn,       SHCMD("sudo light -A 5") },
+	{ MODKEY,                       XK_slash,     spawn,       SHCMD("touch-menu 'Rotate Screen' 'toggle'") },
 };
 
 /* button definitions */

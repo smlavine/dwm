@@ -45,7 +45,7 @@ static const Layout layouts[] = {
 	{ "[M]",      monocle },
  	{ "[@]",      spiral },
  	{ "[\\]",      dwindle },
-+	{ "[D]",      deck },
+	{ "[D]",      deck },
 };
 
 /* key definitions */

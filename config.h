@@ -110,6 +110,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_d,         spawn,       SHCMD("mycmus") },
 	{ MODKEY,                       XK_f,         spawn,       SHCMD("firefox") },
 	{ MODKEY|ShiftMask,             XK_h,         spawn,       SHCMD("st -e htop") },
+	{ MODKEY|ShiftMask,             XK_j,         spawn,       SHCMD("jdkdocs") },
 	{ MODKEY,                       XK_m,         spawn,       SHCMD("st -e cmus") },
 	{ MODKEY,                       XK_n,         spawn,       SHCMD("pausemusic") },
 	{ MODKEY,                       XK_o,         spawn,       SHCMD("watchyt -c") },

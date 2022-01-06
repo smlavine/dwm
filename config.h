@@ -123,6 +123,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_v,         spawn,       SHCMD("vol 5%-") },
 	{ MODKEY|ShiftMask,             XK_v,         spawn,       SHCMD("vol 5%+") },
 	{ MODKEY,                       XK_y,         spawn,       SHCMD("lastscreenshot -s") },
+	{ MODKEY|ShiftMask,             XK_y,         spawn,       SHCMD("lastscreenshot -g") },
 	{ MODKEY|ShiftMask,             XK_BackSpace, spawn,       SHCMD("quitdwm") },
 	{ MODKEY,                       XK_End,       spawn,       SHCMD("mylight -U 5") },
 	{ MODKEY,                       XK_Escape,    spawn,       SHCMD("dunstctl close") },

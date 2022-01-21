@@ -1,7 +1,6 @@
 /* See LICENSE file for copyright and license details. */
 
 #include "gaplessgrid.c"
-#include "fibonacci.c"
 
 /* appearance */
 static const unsigned int borderpx  = 1;        /* border pixel of windows */
@@ -51,7 +50,6 @@ static const Layout layouts[] = {
 	{ "F",     NULL },    /* no layout function means floating behavior */
 	{ "M",     monocle },
 	{ "G",     gaplessgrid },
-	{ "S",     spiral },
 	{ "D",     deck },
 };
 
@@ -89,8 +87,7 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_f,      setlayout,      {.v = &layouts[1]} },
 	{ MODKEY|ShiftMask,             XK_m,      setlayout,      {.v = &layouts[2]} },
 	{ MODKEY|ShiftMask,             XK_g,      setlayout,      {.v = &layouts[3]} },
-	{ MODKEY|ShiftMask,             XK_s,      setlayout,      {.v = &layouts[4]} },
-	{ MODKEY|ShiftMask,             XK_d,      setlayout,      {.v = &layouts[5]} },
+	{ MODKEY|ShiftMask,             XK_d,      setlayout,      {.v = &layouts[4]} },
 	{ MODKEY,                       XK_comma,  setcfact,       {.f = +0.25} },
 	{ MODKEY,                       XK_period, setcfact,       {.f = -0.25} },
 	{ MODKEY,                       XK_backslash, setcfact,    {.f =  0.00} },

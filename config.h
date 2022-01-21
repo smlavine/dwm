@@ -115,6 +115,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_p,         spawn,       SHCMD("mypassmenu") },
 	{ MODKEY|ShiftMask,             XK_p,         spawn,       SHCMD("firefox --private-window") },
 	{ MODKEY,                       XK_s,         spawn,       SHCMD("shoot") },
+	{ MODKEY|ShiftMask,             XK_s,         spawn,       SHCMD("slock") },
 	{ MODKEY,                       XK_t,         spawn,       SHCMD("display-todo") },
 	{ MODKEY,                       XK_u,         spawn,       SHCMD("intlkey") },
 	{ MODKEY,                       XK_v,         spawn,       SHCMD("vol 5%-") },

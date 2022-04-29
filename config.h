@@ -96,6 +96,8 @@ static Key keys[] = {
 	{ MODKEY,            XK_d,          spawn,       SHCMD("mycmus") },
 	{ MODKEY|ShiftMask,  XK_d,          setlayout,   {.v = &layouts[4]} },
 
+	{ MODKEY,            XK_e,          spawn,       SHCMD("xclip -o -s c | qrencode -o - | feh --force-aliasing -ZF -") },
+
 	{ MODKEY,            XK_End,        spawn,       SHCMD("mylight -U 5") },
 
 	{ MODKEY,            XK_Escape,     spawn,       SHCMD("dunstctl close") },

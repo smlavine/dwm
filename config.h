@@ -158,6 +158,7 @@ static Key keys[] = {
 	{ MODKEY,            XK_v,          spawn,       SHCMD("vol 5%-") },
 	{ MODKEY|ShiftMask,  XK_v,          spawn,       SHCMD("vol 5%+") },
 
+	{ MODKEY,            XK_w,          spawn,       SHCMD("weather") },
 	{ MODKEY,            XK_y,          spawn,       SHCMD("lastscreenshot -s") },
 	{ MODKEY|ShiftMask,  XK_y,          spawn,       SHCMD("lastscreenshot -g") },
 };

@@ -150,7 +150,6 @@ static Key keys[] = {
 
 	{ MODKEY,            XK_Tab,        zoom,        {0} },
 
-	{ MODKEY,            XK_t,          spawn,       SHCMD("display-todo") },
 	{ MODKEY|ShiftMask,  XK_t,          setlayout,   {.v = &layouts[0]} },
 
 	{ MODKEY,            XK_u,          spawn,       SHCMD("intlkey") },

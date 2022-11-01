@@ -1,9 +1,6 @@
-smlss
-=====
-This is my build of dwm. It is deployed by
-[smlss](https://sr.ht/~smlavine/smlss).
+# [smlss](https://sr.ht/~smlavine/smlss)
 
-To contact me, Sebastian LaVine, send an email to <mail@smlavine.com>.
+This is my custom configuration of [dwm](https://dwm.suckless.org).
 
 dwm - dynamic window manager
 ============================

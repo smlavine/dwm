@@ -93,7 +93,7 @@ static Key keys[] = {
 
 	{ MODKEY,            XK_comma,      setcfact,    {.f = +0.25} },
 
-	{ MODKEY,            XK_d,          spawn,       SHCMD("mycmus") },
+	{ MODKEY,            XK_d,          spawn,       SHCMD("mymusic") },
 	{ MODKEY|ShiftMask,  XK_d,          setlayout,   {.v = &layouts[4]} },
 
 	{ MODKEY,            XK_e,          spawn,       SHCMD("xclip -o -s c | qrencode -o - | feh --force-aliasing -ZF -") },

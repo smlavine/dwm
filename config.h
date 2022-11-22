@@ -122,7 +122,7 @@ static Key keys[] = {
 
 	{ MODKEY,            XK_l,          setmfact,    {.f = +0.05} },
 
-	{ MODKEY,            XK_m,          spawn,       SHCMD("st -e cmus") },
+	{ MODKEY,            XK_m,          spawn,       SHCMD("st -e ncmpcpp") },
 	{ MODKEY|ShiftMask,  XK_m,          setlayout,   {.v = &layouts[2]} },
 
 	{ MODKEY,            XK_n,          spawn,       SHCMD("pausemusic") },

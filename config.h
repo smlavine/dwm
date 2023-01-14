@@ -92,6 +92,8 @@ static Key keys[] = {
 
 	{ MODKEY,            XK_b,          togglebar,   {0} },
 
+	{ MODKEY|ShiftMask,  XK_c,  spawn,       SHCMD("current-twitch-chat") },
+
 	{ MODKEY,            XK_Caps_Lock,  spawn,       SHCMD("dunstctl close") },
 
 	{ MODKEY,            XK_comma,      setcfact,    {.f = +0.25} },
